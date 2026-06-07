@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AQD Technology — Welcome</title>
+<meta name="description" content="Five patent-pending inventions from a Pittsburgh journeyman electrician. Environmental health intelligence and intelligent safety hardware. Available for licensing and partnership.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AQD Technology">
+<meta property="og:title" content="AQD Technology — Five Inventions. One Mind.">
+<meta property="og:description" content="A Pittsburgh journeyman electrician built five patent-pending inventions independently. Environmental health intelligence, intelligent safety hardware. Licensing inquiries welcome.">
+<meta property="og:url" content="https://aqd.technology/welcome">
+<meta property="og:image" content="https://aqd.technology/aqd_og_image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AQD Technology — Five Inventions. One Mind.">
+<meta name="twitter:description" content="Five patent-pending inventions from a Pittsburgh journeyman electrician. Licensing inquiries welcome.">
+<link rel="canonical" href="https://aqd.technology/welcome">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:#050608;color:#f0ebe0;font-family:'DM Mono','Courier New',monospace;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+
+/* HERO */
+.hero{background:#050608;border-bottom:1px solid rgba(210,170,60,0.15);padding:72px 40px 64px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:#d2aa3c}
+.hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:rgba(184,92,42,0.3)}
+.hero-kicker{font-size:10px;letter-spacing:5px;text-transform:uppercase;color:#d2aa3c;margin-bottom:28px;opacity:0.8}
+.hero-name{font-family:'DM Serif Display',Georgia,serif;font-size:clamp(44px,9vw,88px);line-height:0.92;color:#f0ebe0;margin-bottom:12px}
+.hero-name em{color:#d2aa3c;font-style:italic}
+.hero-tag{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:rgba(240,235,224,0.3);margin-bottom:36px}
+.hero-deck{font-family:'DM Serif Display',Georgia,serif;font-style:italic;font-size:clamp(16px,2.5vw,22px);line-height:1.65;color:rgba(240,235,224,0.65);max-width:600px;margin:0 auto 44px}
+.hero-stats{display:flex;justify-content:center;flex-wrap:wrap;gap:0;border-top:1px solid rgba(210,170,60,0.15);border-bottom:1px solid rgba(210,170,60,0.15);padding:28px 0;margin-bottom:44px}
+.hstat{padding:0 36px;border-right:1px solid rgba(210,170,60,0.15);text-align:center}
+.hstat:last-child{border-right:none}
+.hstat-n{font-family:'DM Serif Display',Georgia,serif;font-size:2.6rem;color:#d2aa3c;line-height:1;display:block}
+.hstat-l{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:rgba(240,235,224,0.3);margin-top:6px;display:block}
+.hero-location{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:rgba(240,235,224,0.2);margin-top:8px}
+
+/* FORK */
+.fork{padding:56px 40px;background:#0a0c0f;border-bottom:1px solid rgba(210,170,60,0.1)}
+.fork-label{text-align:center;font-size:10px;letter-spacing:5px;text-transform:uppercase;color:rgba(210,170,60,0.5);margin-bottom:36px}
+.fork-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2px;max-width:780px;margin:0 auto}
+.fork-card{background:#111318;border:1px solid rgba(210,170,60,0.12);padding:36px 24px;text-align:center;transition:border-color 0.3s,background 0.3s}
+.fork-card:hover{border-color:rgba(210,170,60,0.4);background:#141820}
+.fork-icon{font-size:30px;margin-bottom:18px;display:block}
+.fork-title{font-family:'DM Serif Display',Georgia,serif;font-size:20px;color:#f0ebe0;margin-bottom:10px;line-height:1.2}
+.fork-desc{font-size:11px;line-height:1.7;color:rgba(240,235,224,0.4);margin-bottom:24px}
+.fork-btn{display:inline-block;font-size:9px;letter-spacing:3px;text-transform:uppercase;padding:12px 22px;border:1px solid rgba(210,170,60,0.3);color:#d2aa3c;text-decoration:none;transition:all 0.2s}
+.fork-btn:hover,.fork-btn.primary{background:#d2aa3c;color:#050608;border-color:#d2aa3c}
+.fork-btn.primary:hover{background:#f0cc6e}
+
+/* STORY */
+.story{padding:64px 40px;background:#050608;border-bottom:1px solid rgba(210,170,60,0.1)}
+.story-inner{max-width:680px;margin:0 auto}
+.section-eyebrow{font-size:10px;letter-spacing:5px;text-transform:uppercase;color:#d2aa3c;margin-bottom:20px;opacity:0.8}
+.story-hed{font-family:'DM Serif Display',Georgia,serif;font-size:clamp(30px,5vw,48px);line-height:1.05;color:#f0ebe0;margin-bottom:28px}
+.story-hed em{color:#d2aa3c;font-style:italic}
+.story-body{font-family:Georgia,serif;font-size:15px;line-height:1.9;color:rgba(240,235,224,0.62);margin-bottom:18px}
+.story-body strong{color:#f0ebe0;font-weight:700}
+.story-pull{border-left:3px solid #d2aa3c;padding:2px 0 2px 28px;margin:36px 0;font-family:'DM Serif Display',Georgia,serif;font-style:italic;font-size:clamp(18px,3vw,26px);color:#f0ebe0;line-height:1.45}
+.cred-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}
+.cred-tag{font-size:9px;letter-spacing:2px;text-transform:uppercase;padding:5px 12px;border:1px solid rgba(210,170,60,0.25);color:#d2aa3c}
+
+/* INVENTIONS */
+.inventions{padding:56px 40px;background:#0a0c0f;border-bottom:1px solid rgba(210,170,60,0.1)}
+.section-center{text-align:center}
+.inv-hed{font-family:'DM Serif Display',Georgia,serif;font-size:clamp(26px,4vw,40px);color:#f0ebe0;margin-bottom:40px}
+.inv-hed em{color:#d2aa3c;font-style:italic}
+.vertical-block{max-width:760px;margin:0 auto 40px}
+.vertical-label{font-size:9px;letter-spacing:4px;text-transform:uppercase;color:rgba(210,170,60,0.5);border-bottom:1px solid rgba(210,170,60,0.12);padding-bottom:12px;margin-bottom:16px}
+.inv-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:2px;margin-bottom:4px}
+.inv-item{background:#111318;border:1px solid rgba(210,170,60,0.1);padding:20px 18px}
+.inv-num{font-size:9px;letter-spacing:3px;color:#d2aa3c;margin-bottom:8px}
+.inv-name{font-family:'DM Serif Display',Georgia,serif;font-size:14px;color:#f0ebe0;line-height:1.3;margin-bottom:6px}
+.inv-tag{font-size:8px;letter-spacing:2px;text-transform:uppercase;color:rgba(240,235,224,0.25)}
+.inv-light{opacity:0.7}
+.inv-cta{text-align:center;margin-top:32px}
+
+/* PROOF */
+.proof{padding:48px 40px;background:#111318;border-top:1px solid rgba(210,170,60,0.15);border-bottom:1px solid rgba(210,170,60,0.15)}
+.proof-inner{max-width:680px;margin:0 auto}
+.proof-hed{font-family:'DM Serif Display',Georgia,serif;font-size:clamp(22px,3.5vw,34px);color:#f0ebe0;margin-bottom:24px}
+.proof-list{display:grid;gap:10px}
+.proof-row{display:flex;align-items:flex-start;gap:16px;padding:14px 18px;background:#0a0c0f;border-left:3px solid #d2aa3c}
+.proof-dot{width:6px;height:6px;border-radius:50%;background:#d2aa3c;margin-top:6px;flex-shrink:0}
+.proof-text{font-size:13px;line-height:1.65;color:rgba(240,235,224,0.65)}
+.proof-text strong{color:#f0ebe0}
+.deadline-row{border-left-color:#b85c2a}
+.deadline-row .proof-dot{background:#b85c2a}
+
+/* FINAL CTA */
+.final-cta{padding:64px 40px;background:#050608;text-align:center}
+.final-hed{font-family:'DM Serif Display',Georgia,serif;font-size:clamp(30px,5vw,52px);color:#f0ebe0;margin-bottom:16px;line-height:1.1}
+.final-hed em{color:#d2aa3c;font-style:italic}
+.final-sub{font-family:Georgia,serif;font-style:italic;font-size:15px;color:rgba(240,235,224,0.5);margin-bottom:40px;max-width:480px;margin-left:auto;margin-right:auto;line-height:1.7}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-bottom:36px}
+.btn-p{font-size:10px;letter-spacing:3px;text-transform:uppercase;background:#d2aa3c;color:#050608;border:none;padding:18px 40px;cursor:pointer;text-decoration:none;display:inline-block;transition:background 0.2s}
+.btn-p:hover{background:#f0cc6e}
+.btn-g{font-size:10px;letter-spacing:3px;text-transform:uppercase;background:transparent;color:#d2aa3c;border:1px solid rgba(210,170,60,0.4);padding:17px 40px;cursor:pointer;text-decoration:none;display:inline-block;transition:all 0.2s}
+.btn-g:hover{border-color:#d2aa3c;background:rgba(210,170,60,0.05)}
+.contact-strip{font-size:10px;letter-spacing:2px;color:rgba(240,235,224,0.25);line-height:2.2}
+.contact-strip a{color:rgba(210,170,60,0.6);text-decoration:none;transition:color 0.2s}
+.contact-strip a:hover{color:#d2aa3c}
+
+/* FOOTER */
+.lp-footer{background:#0a0c0f;border-top:1px solid rgba(210,170,60,0.1);padding:28px 40px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.lp-footer p{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(240,235,224,0.18)}
+.back-link{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:rgba(210,170,60,0.4);text-decoration:none;transition:color 0.2s}
+.back-link:hover{color:#d2aa3c}
+
+/* RESPONSIVE */
+@media(max-width:640px){
+  .hero,.fork,.story,.inventions,.proof,.final-cta,.lp-footer{padding-left:24px;padding-right:24px}
+  .hstat{padding:0 20px}
+  .hstat-n{font-size:1.8rem}
+  .lp-footer{flex-direction:column;text-align:center}
+  .fork-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-kicker">Welcome — AQD Technology</div>
+  <h1 class="hero-name">Five <em>Inventions.</em><br>One Mind.</h1>
+  <div class="hero-tag">Pittsburgh, PA &nbsp;·&nbsp; Patent Pending &nbsp;·&nbsp; USPTO #230085</div>
+  <p class="hero-deck">A Pittsburgh journeyman electrician built five patent-pending inventions — independently, without an attorney, for $320 total. This is that story.</p>
+  <div class="hero-stats">
+    <div class="hstat"><span class="hstat-n">5</span><span class="hstat-l">Patents Pending</span></div>
+    <div class="hstat"><span class="hstat-n">v1</span><span class="hstat-l">Prototype Live</span></div>
+    <div class="hstat"><span class="hstat-n">2026</span><span class="hstat-l">Priority Date</span></div>
+    <div class="hstat"><span class="hstat-n">$320</span><span class="hstat-l">Total Filed</span></div>
+  </div>
+  <div class="hero-location">Pittsburgh, Pennsylvania &nbsp;·&nbsp; Micro-Entity Pro Se &nbsp;·&nbsp; aqd.technology</div>
+</section>
+
+<!-- FORK -->
+<section class="fork">
+  <div class="fork-label">What brings you here?</div>
+  <div class="fork-grid">
+    <div class="fork-card">
+      <span class="fork-icon">🤝</span>
+      <div class="fork-title">Licensing Partner</div>
+      <div class="fork-desc">Sensirion, Bosch, Airthings, smart building OEMs — the CEHE pipeline is ready to integrate.</div>
+      <a href="https://aqd.technology" class="fork-btn primary">View Licensing Info</a>
+    </div>
+    <div class="fork-card">
+      <span class="fork-icon">📈</span>
+      <div class="fork-title">Investor</div>
+      <div class="fork-desc">Full portfolio, market data, patent timeline, and Reduction to Practice validation.</div>
+      <a href="https://aqd.technology" class="fork-btn">Investor Section</a>
+    </div>
+    <div class="fork-card">
+      <span class="fork-icon">💡</span>
+      <div class="fork-title">Fellow Inventor</div>
+      <div class="fork-desc">Learn how five patents were built solo from scratch. The AQD Method™ is a teachable framework.</div>
+      <a href="https://aqd.technology" class="fork-btn">The AQD Method™</a>
+    </div>
+  </div>
+</section>
+
+<!-- STORY -->
+<section class="story">
+  <div class="story-inner">
+    <div class="section-eyebrow">The Origin</div>
+    <h2 class="story-hed">Built by a <em>journeyman electrician</em> from Pittsburgh.</h2>
+    <p class="story-body">My name is <strong>Abdul Qawwee Daniels</strong>. I am not a Silicon Valley engineer. I came up through the trades — 15 years in construction electrical, a journeyman ticket, IBEW Local 5 Pittsburgh. I know how things are built. I know what breaks. And I know how to document it.</p>
+    <p class="story-body">I noticed that nobody was automatically connecting environmental triggers to physiological responses in real time — with legal rigor, with tamper-evident records, with clinical output ready for EHR systems and insurance billing. Doctors had health records. Facilities had sensor logs. Nobody was automating the connection between them.</p>
+    <p class="story-body">So I built the system that does it. Then I built three more layers on top of it. Then I built two intelligent safety hardware inventions on top of that. Then I filed all five at the USPTO — on my own, no attorney — and got to work on the prototype.</p>
+    <div class="story-pull">"Four patents. One problem. Filed on the same day. No attorney. $80 per application."</div>
+    <p class="story-body">The prototype is operational. A live environmental event has been detected, timestamped, and validated across five simultaneous sensor channels. The patent clock is running. Now I am looking for the right partners to take this to market.</p>
+    <div class="cred-row">
+      <span class="cred-tag">Journeyman Electrician</span>
+      <span class="cred-tag">IBEW Local 5 Pittsburgh</span>
+      <span class="cred-tag">15 Years Construction</span>
+      <span class="cred-tag">USPTO #230085</span>
+      <span class="cred-tag">Micro-Entity Pro Se</span>
+    </div>
+  </div>
+</section>
+
+<!-- INVENTIONS -->
+<section class="inventions">
+  <div class="section-center">
+    <div class="section-eyebrow">The Portfolio</div>
+    <h2 class="inv-hed">Two Verticals. <em>Six Inventions.</em></h2>
+  </div>
+
+  <div class="vertical-block">
+    <div class="vertical-label">Vertical 1 — Environmental Health Intelligence &nbsp;·&nbsp; AQD-0001 through AQD-0004</div>
+    <div class="inv-list">
+      <div class="inv-item">
+        <div class="inv-num">AQD-0001 · 64038393</div>
+        <div class="inv-name">CEHE Detection System</div>
+        <div class="inv-tag">Flagship &nbsp;·&nbsp; Filed 04/13/2026</div>
+      </div>
+      <div class="inv-item">
+        <div class="inv-num">AQD-0002 · 64038373</div>
+        <div class="inv-name">Predictive ML Layer</div>
+        <div class="inv-tag">LSTM/Transformer &nbsp;·&nbsp; Filed 04/13/2026</div>
+      </div>
+      <div class="inv-item">
+        <div class="inv-num">AQD-0003 · 64038343</div>
+        <div class="inv-name">Distributed Sensor Network</div>
+        <div class="inv-tag">LoRaWAN Mesh &nbsp;·&nbsp; Filed 04/13/2026</div>
+      </div>
+      <div class="inv-item">
+        <div class="inv-num">AQD-0004 · 64038293</div>
+        <div class="inv-name">EHR Clinical Integration</div>
+        <div class="inv-tag">FHIR / ICD-10 &nbsp;·&nbsp; Filed 04/13/2026</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="vertical-block inv-light">
+    <div class="vertical-label">Vertical 2 — Intelligent Safety Hardware &nbsp;·&nbsp; WaterGuard · SmartSand</div>
+    <div class="inv-list">
+      <div class="inv-item">
+        <div class="inv-num">AQD-0005 · 64051886</div>
+        <div class="inv-name">WaterGuard™</div>
+        <div class="inv-tag">Autonomous Marine Safety &nbsp;·&nbsp; Filed 04/28/2026</div>
+      </div>
+      <div class="inv-item">
+        <div class="inv-num">AQD-0006 · 64051026</div>
+        <div class="inv-name">SmartSand™</div>
+        <div class="inv-tag">Construction Tech &nbsp;·&nbsp; Filed 04/28/2026</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="inv-cta">
+    <a href="https://aqd.technology" class="btn-p">Explore All Inventions</a>
+  </div>
+</section>
+
+<!-- PROOF -->
+<section class="proof">
+  <div class="proof-inner">
+    <div class="section-eyebrow">Reduction to Practice</div>
+    <h3 class="proof-hed">This is not just a concept. It has been validated.</h3>
+    <div class="proof-list">
+      <div class="proof-row">
+        <div class="proof-dot"></div>
+        <div class="proof-text"><strong>4 patent applications filed April 13, 2026</strong> — USPTO Application IDs 64038293, 64038343, 64038373, 64038393. All pending.</div>
+      </div>
+      <div class="proof-row">
+        <div class="proof-dot"></div>
+        <div class="proof-text"><strong>v1 prototype operational</strong> — Adafruit KB2040 with SGP30 air quality and MAX30102 physiological sensors running live on a Raspberry Pi compute layer.</div>
+      </div>
+      <div class="proof-row">
+        <div class="proof-dot"></div>
+        <div class="proof-text"><strong>Live environmental event captured and timestamped</strong> — simultaneous multi-channel spike confirmed across all five sensor streams, validating the core patent concept.</div>
+      </div>
+      <div class="proof-row">
+        <div class="proof-dot"></div>
+        <div class="proof-text"><strong>WaterGuard and SmartSand filed April 28, 2026</strong> — USPTO Application IDs 64051886 and 64051026. Two additional verticals pending.</div>
+      </div>
+      <div class="proof-row deadline-row">
+        <div class="proof-dot"></div>
+        <div class="proof-text"><strong>Non-provisional conversion deadline: April 13, 2027</strong> — the window for full claim protection on the CEHE pipeline is actively in progress.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta">
+  <h2 class="final-hed">Ready to <em>talk?</em></h2>
+  <p class="final-sub">Licensing inquiries, investment discussions, joint development, or just want to learn more — reach out directly or visit the full portfolio site.</p>
+  <div class="cta-row">
+    <a href="https://aqd.technology" class="btn-p">Visit aqd.technology</a>
+    <a href="mailto:Mahirsheffield@gmail.com" class="btn-g">Email Directly</a>
+  </div>
+  <div class="contact-strip">
+    <a href="mailto:Mahirsheffield@gmail.com">Mahirsheffield@gmail.com</a>
+    &nbsp;·&nbsp;
+    <a href="tel:+17246470927">(724) 647-0927</a>
+    &nbsp;·&nbsp;
+    Pittsburgh, PA
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="lp-footer">
+  <p>&copy; 2026 AQD Technology &nbsp;·&nbsp; Abdul Qawwee Daniels &nbsp;·&nbsp; All Inventions Patent-Pending</p>
+  <a href="https://aqd.technology" class="back-link">← Back to main site</a>
+  <p>USPTO Customer #230085 &nbsp;·&nbsp; Pittsburgh, PA</p>
+</footer>
+
+</body>
+</html>
